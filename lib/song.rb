@@ -27,12 +27,12 @@ class Song
     @@artists.select{ |artist| artist.uniq }
   end 
   
-  def self.genre.count(number, genre)
+  def self.genre_count(number, genre)
     
     
   end
   
-  def self.artist.count 
+  def self.artist_count 
   end 
   
 end 
