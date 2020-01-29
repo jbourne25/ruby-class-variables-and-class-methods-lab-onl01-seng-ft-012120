@@ -20,7 +20,7 @@ class Song
   end 
   
   def self.genres 
-    @@genres.select{ |genre| genre.uniq }
+    @@genres.select{ |genre| song.genre.uniq }
   end 
   
   def self.artists 
